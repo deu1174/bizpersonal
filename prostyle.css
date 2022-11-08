@@ -1,0 +1,41 @@
+<style>
+*{
+    font-family: "맑은고딕",Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+section{
+    display: flex;
+    margin-top: 50px;
+}
+.content{
+    flex: 6;
+}
+.officeproduct1, .officeproduct2, .officeproduct3 {
+    width: 400px;
+    height: 600px;
+    float: left;
+    border: 2px;
+}
+.gamechair1, .gamechair2, .gamechair3{
+    width: 400px;
+    height: 600px;
+    float: left;
+    border: 2px;
+}
+.fixedchair1, .fixedchair2, .fixedchair3{
+    width: 400px;
+    height: 600px;
+    float: left;
+    border: 2px;
+
+}
+aside{
+
+flex: 1;
+
+}
+footer{
+    width: 100%; height: 20%; clear: both;
+    background-color: grey;
+}
+</style>
